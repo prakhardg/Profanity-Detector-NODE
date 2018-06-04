@@ -1,2 +1,1 @@
-#Profanity Detector for node js
-Profanity Detector for Node JS
+#Profanity Detector for Node JS
