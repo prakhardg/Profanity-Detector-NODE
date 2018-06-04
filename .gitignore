@@ -1,0 +1,3 @@
+#ignore the folder, testfiles and json files
+node_modules
+test*.js

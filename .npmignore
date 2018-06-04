@@ -1,0 +1,4 @@
+# ignore folder in npmignore
+node_modules
+#ignore test files.
+test*.js

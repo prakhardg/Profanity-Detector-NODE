@@ -1,0 +1,30 @@
+{
+  "name": "profanity-detector",
+  "version": "1.0.7",
+  "description": "Node package which can be used to detect if sentence contains profanity. Ideal for live chats. A product of Toppr: Learning App for 5th to 12th.",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakhardg/Profanity-Detector-Nodepackage.git"
+  },
+  "keywords": [
+    "npm",
+    "profanity",
+    "profane",
+    "chat",
+    "cleanspeak",
+    "censor"
+  ],
+  "author": "Prakhar Dev Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakhardg/Profanity-Detector-Nodepackage/issues"
+  },
+  "homepage": "https://github.com/prakhardg/Profanity-Detector-Nodepackage#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
