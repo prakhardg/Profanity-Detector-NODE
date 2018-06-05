@@ -1,9 +1,9 @@
-let run = require('./primary.js');
+const run = require('./primary.js');
 
-module.exports.hasProfanity = function hasProfanity(sentence_to_check){
-return new Promise ((resolve,reject) => {
-	run.isProfane(sentence_to_check)
-    .then((answer) => { resolve(answer) })
-	.catch(() => { reject("Error"); });
-}).then((ans) =>{return ans;}).catch(()=>{return Error('Could not use the package');}); 
+module.exports.hasProfanity = function hasProfanity(SentenceToCheck) {
+  return new Promise((resolve, reject) => {
+    run.isProfane(SentenceToCheck)
+      .then((answer) => { resolve(answer); })
+      .catch(() => { reject(Error('Error occured')); });
+  }).then(ans => ans).catch(() => Error('Could not use the package'));
 };
