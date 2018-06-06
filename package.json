@@ -1,6 +1,6 @@
 {
   "name": "profanity-detector",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Node package which can be used to detect if sentence contains profanity. Ideal for live chats. A product of Toppr: Learning App for 5th to 12th.",
   "main": "run.js",
   "scripts": {

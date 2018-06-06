@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 let resp;
-const url = 'http://res.cloudinary.com/dzbqhaluy/raw/upload/v1527837362/profane_wordsV3.json';
+const url = 'http://res.cloudinary.com/dzbqhaluy/raw/upload/v1528264211/profane_wordsV4.json';
 
 
 module.exports.getDict = async function getDict() {
